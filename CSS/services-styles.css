@@ -1,0 +1,8 @@
+.bottom-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottom-menu-choices {
+  margin: 0 10px;
+}

@@ -23,7 +23,7 @@ body {
   padding-bottom: 20px;
 }
 
-.google-logo{
+#google-logo{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -123,6 +123,20 @@ body {
 .backdoor {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
   color: white;
+}
+
+.cta {
+  color: red;
+}
+
+.cta-back {
+  color: blue;
+  border: 2px solid blue;
+  padding: 5px 10px;
+}
+
+.cta-underline {
+  text-decoration: underline;
 }
