@@ -61,3 +61,8 @@ margin-right: 2px;
   border: 2px solid blue;
   padding: 5px 10px;
 }
+
+#credit {
+  display: flex;
+  justify-content: center;
+}

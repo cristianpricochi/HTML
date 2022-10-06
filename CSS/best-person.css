@@ -1,0 +1,82 @@
+
+
+@font-face {
+  src: url("../fonts/ForestryScript.ttf");
+  font-family: ForestryScript;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.fancy-text {
+  font-family: ForestryScript;
+}
+
+#cutie-img {
+  border-radius: 50%;
+  width: 800px;
+}
+
+.backdoor {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.cta-back {
+  color: blue;
+  border: 2px solid blue;
+  padding: 5px 10px;
+}
+
+.circular--landscape {
+  /* display: inline-block;
+  position: relative; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 50%;
+  }
+
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+     margin-left: -140px;
+   }
+
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .fancy-text {
+    font-family: ForestryScript;
+    font-size: 20px;
+  }
+}
+
+ @media (min-width: 481px) and (max-width: 767px) {
+   .fancy-text {
+     font-family: ForestryScript;
+     font-size: 20px;
+   }
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px){
+
+ }
+
+ @media (min-width: 1025px) and (max-width: 1280px){
+
+ }
+
+ @media (min-width: 1281px) {
+
+ }
