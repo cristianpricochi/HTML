@@ -14,40 +14,38 @@ body {
   background-image: url("../Media/matrix-code.webp");
   background-size: contain;
   font-family: 'Silkscreen', cursive;
+  font-size: 3.2vw;
 }
 
 .title-banner {
-  background-color: rgba(0,0,0,1);
-  height: 80px;
+  background-color: rgba(0,0,0,.9);
+  height: auto;
+  padding-bottom: .5vh;
 }
 
 .banner {
-  margin: 20px auto;
-  width: 450px;
-  background-color: rgba(0,0,0,1);
+  margin: 10vh auto;
+  width: 80vw;
+  background-color: rgba(0,0,0,.9);
   height: auto;
 }
 
 .title {
-  padding-top: 15px;
+  padding-top: 1vh;
+  font-size: 8vw;
   font-weight: bolder;
-  font-size: 40px;
   font-family: Matrix;
 }
 
-.backdoor {
-  margin-top: 20px;
-  color: white;
-}
 
 .btn {
   margin-top: 50px;
-  border: 2px solid #006D12;
+  border: 1vw solid #006D12;
   color: #006D12;
   background-color: rgba(0,0,0,0.9);
   font-family: inherit;
-  font-size: 18px;
-  padding: 8px;
+  padding: 2vw;
+  font-size: 3.2vw;
 }
 
 .backdoor {
